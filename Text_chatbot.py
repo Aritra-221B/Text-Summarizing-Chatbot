@@ -1,6 +1,6 @@
 import streamlit as st
 import re
-from transformers import pipeline
+from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
 # Load the improved model
 @st.cache_resource
